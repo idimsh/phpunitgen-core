@@ -1,5 +1,5 @@
 {
-  "name": "idimsh/phpunitgen-core",
+  "name": "phpunitgen/core",
   "description": "The PhpUnitGen core features for tests generation.",
   "license": "MIT",
   "type": "library",
