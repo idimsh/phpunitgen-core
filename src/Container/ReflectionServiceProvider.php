@@ -34,7 +34,7 @@ abstract class ReflectionServiceProvider extends AbstractServiceProvider
      */
     protected function addDefinition(string $contract, string $concrete): void
     {
-        $definition = $this->leagueContainer->add($contract, $concrete);
+        $definition = $this->container->add($contract, $concrete);
 
         $this->addDefinitionArguments($definition);
     }
